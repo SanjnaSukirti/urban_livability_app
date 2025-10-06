@@ -31,8 +31,11 @@ About Page - project methodology, data sources, and direct SDG mapping.
 **Tech Stack:**
 
 Streamlit - Interactive web application development.
+
 Plotly - Interactive, professional graphs.
+
 Pandas - Core data handling and manipulation.
+
 NumPy - Normalization and other calculations.
 
 **Live Dashboard:**
