@@ -19,8 +19,5 @@ def load():
 
 df = load()
 
-st.write("Data preview:")
-st.dataframe(df.head(8))
-
-st.markdown("---")
-st.markdown("**Note:** Adjust the CSV and re-deploy for new datasets. Use the pages on the left to navigate.")
+st.write("Dataset:")
+st.dataframe(df)
