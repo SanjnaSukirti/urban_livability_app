@@ -6,27 +6,27 @@ This Streamlit web application analyzes and visualizes the livability of selecte
 
 This data analysis project computes a Livability Index using four equally weighted sub-indices:
 
-Air Quality Index (AQI) — based on PM2.5, PM10, NO₂, and SO₂
+Air Quality Index (AQI) - based on PM2.5, PM10, NO₂, and SO₂
 
-Population Density Index (PDI) — based on population and area
+Population Density Index (PDI) - based on population and area
 
-Health Index (HI) — based on life expectancy and infant mortality rate
+Health Index (HI) - based on life expectancy and infant mortality rate
 
-Poverty Index (BPL) — based on BPL population percentage
+Poverty Index (BPL) - based on BPL population percentage
 
-Each sub-index is normalized and combined to produce a composite Livability Index (0–100 scale).
+Each sub-index is normalized and combined to produce a composite Livability Index (0-100 scale).
 
 **Key Features:**
 
-City-wise Analysis — explore sub-indices and livability trends for each city.
+City-wise Analysis - explore sub-indices and livability trends for each city.
 
-City Comparison — compare multiple cities and years interactively.
+City Comparison - compare multiple cities and years interactively.
 
-Visualization Dashboard — six professional, interactive Plotly visualizations with results & discussions.
+Visualization Dashboard - six professional, interactive Plotly visualizations with results & discussions.
 
-Leaderboard — ranks cities by average livability over the study period.
+Leaderboard - ranks cities by average livability over the study period.
 
-About Page — project methodology, data sources, and direct SDG mapping.
+About Page - project methodology, data sources, and direct SDG mapping.
 
 **Tech Stack:**
 
