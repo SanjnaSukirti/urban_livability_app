@@ -6,7 +6,7 @@ from utils import load_and_process
 
 st.title("City Comparison")
 
-df = load_and_process("urban_data.csv")
+df = load_and_process("Source_Code/urban_data.csv")
 cities = sorted(df["city"].unique())
 
 selected = st.multiselect("Select cities (2-5)", cities, default=cities[:2])

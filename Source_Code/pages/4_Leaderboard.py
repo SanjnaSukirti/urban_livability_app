@@ -5,7 +5,7 @@ from utils import load_and_process
 
 st.title("Leaderboard — Average Livability (2019–2023)")
 
-df = load_and_process("urban_data.csv")
+df = load_and_process("Source_Code/urban_data.csv")
 # compute average livability per city
 rank = df.groupby("city", as_index=False)["livability_index"].mean().sort_values("livability_index", ascending=False)
 rank["rank"] = range(1, len(rank)+1)

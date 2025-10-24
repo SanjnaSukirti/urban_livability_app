@@ -6,7 +6,7 @@ from utils import load_and_process
 
 st.title("Visualization Dashboard (6 Figures)")
 
-df = load_and_process("urban_data.csv")
+df = load_and_process("Source_Code/urban_data.csv")
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "1. Livability Trend", "2. Heatmap", "3. Radar (sub-indices)",

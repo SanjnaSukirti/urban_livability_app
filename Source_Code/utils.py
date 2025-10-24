@@ -4,7 +4,7 @@ import numpy as np
 
 COND_TO_TDS = 0.67
 
-def load_and_process(path="../urban_data.csv"):
+def load_and_process(path="Source_Code/urban_data.csv"):
     """
     Load CSV and compute subindices & livability index.
     Returns processed DataFrame with lower-case columns.

@@ -5,7 +5,7 @@ from utils import load_and_process
 
 st.title("City-wise Analysis")
 
-df = load_and_process("urban_data.csv")
+df = load_and_process("Source_Code/urban_data.csv")
 
 cities = sorted(df["city"].unique())
 city = st.selectbox("Select city", cities)
