@@ -15,7 +15,7 @@ comparisons, visualizations, and the leaderboard.
 # load data once and cache
 @st.cache_data
 def load():
-    return load_and_process("urban_data.csv")
+    return load_and_process("../urban_data.csv")
 
 df = load()
 
